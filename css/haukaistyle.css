@@ -1,0 +1,58 @@
+/*Stylesheet for Haukai Restaurant web application*/
+
+/*Universal box sizing*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {font-family: Arial, Verdana, Helvetica, san-serif;}
+  
+  /* Style the header */
+  .header {
+    background-color: mistyrose;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: indigo;
+    font-size: 2vw;
+  }
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: Snow;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5vw 1vw;
+  }
+  /* Create two equal columns that float next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    font-size: 2vw;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout for smaller screen, so the column will stack on each other */
+  @media screen and (max-width:600px) {
+    .column {   width: 100%;    }
+  }
+
+  /*Style for Footer*/
+  .footer {
+    background-color: indigo;
+    color: ivory;
+    text-align: center;
+    padding: 0.2vw;
+    font-size: 2vw;
+  }
+  
